@@ -45,3 +45,14 @@ hr {
         font-weight: 400;
     }
 }
+
+/* Query width 1728px */
+@media screen and (min-width: 1728px) {
+    .lista-rodape{
+        padding-left: 1em;
+        border-left: 1px solid var(--cinza-claro);
+    }
+    .rodape{
+        padding: 3em 0;
+    }
+}

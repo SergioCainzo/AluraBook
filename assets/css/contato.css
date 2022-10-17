@@ -59,3 +59,11 @@
         font-size: 24px;
     }
 }
+
+/* Query width 1728px */
+@media screen and (min-width: 1728px) {
+    .contato{
+        padding: 3em 20vw;
+    }
+    
+}

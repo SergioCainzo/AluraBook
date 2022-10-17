@@ -31,12 +31,22 @@
 }
 
 /* Query width 1024px */
-
 @media screen and (min-width: 1024px) {
     .topico__titulo{
         font-size: 24px;
     }
     .topico{
         font-size: 24px;
+    }
+
+}
+
+/* Query width 1728px */
+@media screen and (min-width: 1728px){
+    .topico__lista{
+        padding: 2em 30vw;
+    }
+    .topico__titulo{
+        padding-top: 1em;
     }
 }
